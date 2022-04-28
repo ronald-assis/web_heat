@@ -12,7 +12,38 @@ export function MessageList() {
           <p className={styles.messageContent}>
             Qualquer mensagem
           </p>
+          <div className={styles.messageUser}>
+            <div className={styles.userImage}>
+              <img src="https://github.com/ronald-assis.png" alt="Ronald Assis" />
+            </div>
+            <span>Ronald Assis</span>
+          </div>
         </li>
+
+          <li className={styles.message}>
+          <p className={styles.messageContent}>
+            Qualquer mensagem
+          </p>
+          <div className={styles.messageUser}>
+            <div className={styles.userImage}>
+              <img src="https://github.com/ronald-assis.png" alt="Ronald Assis" />
+            </div>
+            <span>Ronald Assis</span>
+          </div>
+        </li>
+        
+        <li className={styles.message}>
+          <p className={styles.messageContent}>
+            Qualquer mensagem
+          </p>
+          <div className={styles.messageUser}>
+            <div className={styles.userImage}>
+              <img src="https://github.com/ronald-assis.png" alt="Ronald Assis" />
+            </div>
+            <span>Ronald Assis</span>
+          </div>
+        </li>
+          
       </ul>
     </div>
   )
